@@ -1,0 +1,8 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+    classes:
+      - src.com.amazon.tests.InvalidLoginLogout
+      - src.com.amazon.tests.LoginTest
+
